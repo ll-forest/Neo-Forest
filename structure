@@ -1,0 +1,48 @@
+NEOFOREST/
+└── frontend/
+    ├── public/
+    │   ├── index.html
+    │   └── assets/
+    │       ├── music/
+    │       │   ├── background.mp3
+    │       │   └── effects/
+    │       │       ├── button-hover.mp3 x
+    │       │       ├── button-click.mp3 x
+    │       │       ├── combat-hit.mp3
+    │       │       └── game-over.mp3
+    │       └── images/
+    │           ├── player/
+    │           │   ├── idle.png (64x64 × 4 frames = 256x64)
+    │           │   ├── walk.png (64x64 × 8 frames = 512x64)
+    │           │   ├── jump.png (64x64 × 4 frames = 256x64)
+    │           │   ├── fall.png (64x64 × 2 frames = 128x64)
+    │           │   ├── attack.png (64x64 × 6 frames = 384x64)
+    │           │   ├── hit (64x64 × 3 frames = 192x64)
+    │           │   └── effects/
+    │           │       ├── energy-trail.png
+    │           │       ├── impact.png
+    │           │       └── particles.png
+    │           ├── enemies/
+    │           │   ├── drone.png
+    │           │   └── cyborg.png
+    │           └── environment/
+    │               ├── tiles.png
+    │               └── particles.png
+    └── src/
+        ├── components/
+        │   ├── ui/
+        │   ├── Menu.js
+        │   ├── GameCanvas.js
+        │   └── HUD.js
+        ├── game/
+        │   ├── Engine.js
+        │   ├── Player.js
+        │   ├── Enemy.js
+        │   ├── Combat.js
+        │   └── Audio.js
+        ├── constants/
+        │   ├── assetPaths.js
+        │   └── gameConfig.js
+        ├── App.js
+        ├── App.css
+        └── index.js
